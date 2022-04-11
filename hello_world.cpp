@@ -1,15 +1,13 @@
 #include <iostream>
 
-using namespace std;
-
 int main(int agc, string* argv[]){
 
-     string name;
+     std::string name;  //for storing user name
 
-     cin >> name;  
+     std::cin >> name;  //getting user name
 
-     cout << "Hello, World from " + name + "!\n";
+     std::cout << "Hello, World from " + name + "!\n"; //output
 
-    return 0;
+    return 0;  
 
 }
