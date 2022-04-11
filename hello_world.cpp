@@ -2,11 +2,11 @@
 
 int main(int agc, string* argv[]){
 
-     std::string name;  //for storing user name
+     std::string name;  //для хранения имени пользователя
 
-     std::cin >> name;  //getting user name
+     std::cin >> name;  //получения имени
 
-     std::cout << "Hello, World from " + name + "!\n"; //output
+     std::cout << "Hello, World from " + name + "!\n"; //вывод
 
     return 0;  
 
