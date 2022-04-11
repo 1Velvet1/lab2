@@ -2,12 +2,12 @@
 
 int main(int agc, string* argv[]){
 
-     std::string name;
+     std::string name;  //for storing user name
 
-     std::cin >> name;  
+     std::cin >> name;  //getting user name
 
-     std::cout << "Hello, World from " + name + "!\n";
+     std::cout << "Hello, World from " + name + "!\n"; //output
 
-    return 0;
+    return 0;  
 
 }
