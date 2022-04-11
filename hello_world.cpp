@@ -1,14 +1,12 @@
 #include <iostream>
 
-using namespace std;
-
 int main(int agc, string* argv[]){
 
-     string name;
+     std::string name;
 
-     cin >> name;  
+     std::cin >> name;  
 
-     cout << "Hello, World from " + name + "!\n";
+     std::cout << "Hello, World from " + name + "!\n";
 
     return 0;
 
